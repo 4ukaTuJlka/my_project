@@ -1,0 +1,57 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+p {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    border-left: 4px solid red;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body {
+    background: url(../photo/ajy.jpeg);
+}
+.header {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    flex: 0;
+}
+
+.header-link {
+    margin: 0px 30px;
+    text-decoration: none;
+    color:brown;
+    font-weight: 200px;
+    
+}
+
+.main {
+    display: flex;
+}
+
+.im {
+    padding: 150px 80px 30px 200px;
+}
+.section {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.foter {
+    display:flex;
+    justify-content: center;
+    border-top: 3px solid gray;
+}
